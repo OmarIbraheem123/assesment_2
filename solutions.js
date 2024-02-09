@@ -16,12 +16,17 @@ function palindrome(str) {
         return false
     }
 }
-console.log(palindrome(level))
+
 
 
 
 /// sum Array
 
-// function sumArray (sum) {
-//     const 
-// }
+function sumArray (arr) {
+    let sum = 0
+for (let i = 0; i < arrrr.length; i++) {
+    sum += arr[i]
+}
+return sum
+}
+
