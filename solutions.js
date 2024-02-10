@@ -54,13 +54,13 @@ function twoLengths(str1, str2) {
         return max
     }
 // //Print Longest Word
-//     function printLongestWord (arr) {
-//         const longestString = arr.reduce(accumulator, currentValue)
-//         return accumulator + currentValue;
-//         if (accumulator === currentValue) {
-//             return accumulator
-//         }
-//     }
+    function printLongestWord (arr) {
+        const longestString = arr.reduce(accumulator, currentValue)
+        return accumulator + currentValue;
+        if (accumulator === currentValue) {
+            return accumulator
+        }
+    }
 //Transmogrify the Numbers
 //Project Euler Problem 2
 //A Needle in the Haystack
