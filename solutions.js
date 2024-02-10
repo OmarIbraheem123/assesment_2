@@ -41,3 +41,15 @@ const checkPrime = (num) =>  {
 
 
 //Calculate the Cube
+//Is a Vowel?
+//Get Two Lengths
+function twoLengths(str1, str2) {
+    const twoString = str1.length + str2.length
+}
+//Get Multiple Lengths
+//Maximum of Three Numbers
+//Print Longest Word
+//Transmogrify the Numbers
+//Project Euler Problem 2
+//A Needle in the Haystack
+//Sum the Positive
