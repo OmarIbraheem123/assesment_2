@@ -24,9 +24,20 @@ function palindrome(str) {
 
 function sumArray (arr) {
     let sum = 0
-for (let i = 0; i < arrrr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     sum += arr[i]
 }
 return sum
 }
 
+// prime numbers
+
+const checkPrime = (num) =>  {
+    if (num <= 1){
+    return false
+}
+    for (let i < 2  )
+}
+
+
+//Calculate the Cube
