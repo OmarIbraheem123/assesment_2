@@ -47,8 +47,20 @@ function twoLengths(str1, str2) {
     const twoString = str1.length + str2.length
 }
 //Get Multiple Lengths
+
 //Maximum of Three Numbers
-//Print Longest Word
+    function maxThreeNum (num1, num2, num3) {
+        const max = Math.max(num1, num2, num3)
+        return max
+    }
+// //Print Longest Word
+//     function printLongestWord (arr) {
+//         const longestString = arr.reduce(accumulator, currentValue)
+//         return accumulator + currentValue;
+//         if (accumulator === currentValue) {
+//             return accumulator
+//         }
+//     }
 //Transmogrify the Numbers
 //Project Euler Problem 2
 //A Needle in the Haystack
