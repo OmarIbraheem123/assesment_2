@@ -62,6 +62,39 @@ function twoLengths(str1, str2) {
         }
     }
 //Transmogrify the Numbers
+
 //Project Euler Problem 2
 //A Needle in the Haystack
 //Sum the Positive
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
+//psuedocde
+//1) create a function thats called validAnagram that has two parameters
+//2) set a conditional that returns false if the length of the two strings are not equal to each other 
+//3) create a for loop that iterate through each string starting with the firs string then the same for the second string
+//4)  have a conditional inside the for loop for the first string that after iteration if the letter is there give a 1 if there are more then more of that same letter the add 1 more  
+//5) set a conditional for the second string that returns false if the letters dont match and if they do to decrement 1 
+function validAnagram(first, second) {
+    if (first.length !== second.length) {
+        return false;
+    }
+
+    const lookup = {};
+
+    for (let i = 0; i < first.length; i++) {
+        let letter = first[i];
+        // If letter exists, increment, otherwise set to 1
+        lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
+    }
+
+    for (let i = 0; i < second.length; i++) {
+        let letter = second[i];
+        // Can't find letter or letter is zero then it's not an anagram
+        if (!lookup[letter]) {
+            return false;
+        } else {
+            lookup[letter] -= 1;
+        }
+    }
+
+    return true;
+}
